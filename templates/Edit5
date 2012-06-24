@@ -1,0 +1,89 @@
+<div id="wide-personal-info">
+
+    <div id="habbo-plate">
+            <a href="http://www.habbo.com/identity/avatars">
+            <img alt="???joopie!!!" src="http://www.habbo.com/habbo-imaging/avatar/hr-125-38.hd-190-29.ch-225-88.lg-285-64.sh-300-62.ha-1023-73.ea-1404-62.fa-1201.cp-3120-62,s-0.g-1.d-3.h-3.a-0,c71944af61bb9eb357a8e47fcd28b401.gif
+"/>
+        </a>
+    </div>
+
+    <div id="name-box" class="info-box">
+        <div class="label">Name:</div>
+        <div class="content">???joopie!!!</div>
+    </div>
+    <div id="motto-box" class="info-box">
+        <div class="label">Motto:</div>
+        <div class="content">[USAF] Recruit</div>
+    </div>
+    <div id="last-logged-in-box" class="info-box">
+        <div class="label">Last signed in:</div>
+        <div class="content">Mar 23, 2012 1:14:17 PM</div>
+    </div>
+
+<div class="enter-hotel-btn">
+    <div class="open enter-btn">
+            <a href="http://www.habbo.com/client" target="5325ed755e584364bbf2516b508e2a34d598afcf" onclick="HabboClient.openOrFocus(this); return false;">Enter Habbo Hotel<i></i></a>
+        <b></b>
+    </div>
+</div>
+
+</div>
+
+
+
+<div id="promo-box">
+
+    <div id="promo-bullets"></div>
+
+        <div class="promo-container" style="background-image: url(//habbo.hs.llnwd.net/c_images/web_promo/web_promo_01.png)">
+            <div class="promo-content">
+                <div class="title">Ride Off Into the Sunset With Your Pet Horse!</div>
+                <div class="body">Train, play, and take care of your horse to level him up and become a champion rider!</div>
+            </div>
+                <a href="http://www.facebook.com/habbo" target="_blank" class="facebook-link" onclick="recordOutboundLink('Promo','Horses Facebook Button');"></a>
+                <a href="http://www.twitter.com/habbo" target="_blank" class="twitter-link" onclick="recordOutboundLink('Promo','Horses Twitter Button');"></a>
+<div class="enter-hotel-btn">
+    <div class="open enter-btn">
+            <a href="http://www.habbo.com/client" target="5325ed755e584364bbf2516b508e2a34d598afcf" onclick="HabboClient.openOrFocus(this); return false;">Saddle up &gt;&gt;&gt;<i></i></a>
+        <b></b>
+    </div>
+</div>
+        </div>
+        <div class="promo-container" style="display: none; background-image: url(//habbo.hs.llnwd.net/c_images/web_promo/web_promo_02.png)">
+            <div class="promo-content">
+                <div class="title">Have You Got What It Takes?</div>
+                <div class="body">Fast paced action and frosty thrills- it's hit or get hit, and once the snowballs start flying only one team will reign supreme!</div>
+            </div>
+                <a href="http://www.facebook.com/habbo" target="_blank" class="facebook-link" onclick="recordOutboundLink('Promo','SnowStorm Facebook Button');"></a>
+                <a href="http://www.twitter.com/habbo" target="_blank" class="twitter-link" onclick="recordOutboundLink('Promo','SnowStorm Twitter Button');"></a>
+<div class="enter-hotel-btn">
+    <div class="open enter-btn">
+            <a href="http://www.habbo.com/client" target="5325ed755e584364bbf2516b508e2a34d598afcf" onclick="HabboClient.openOrFocus(this); return false;">Join The Storm &gt;&gt;&gt;<i></i></a>
+        <b></b>
+    </div>
+</div>
+        </div>
+        <div class="promo-container" style="display: none; background-image: url(//habbo.hs.llnwd.net/c_images/web_promo/web_promo_03.png)">
+            <div class="promo-content">
+                <div class="title">Download Niko Today!</div>
+                <div class="body">Download Niko on iPhone today and guide Niko through a fantastic world of puzzles and platforming adventure!</div>
+            </div>
+                <a href="http://itunes.apple.com/app/niko/id481670205" target="_blank" class="appstore-link" onclick="recordOutboundLink('Promo','Niko AppStore Button');"></a>
+                <a href="https://www.facebook.com/NikoTheGame" target="_blank" class="facebook-link" onclick="recordOutboundLink('Promo','Niko Facebook Button');"></a>
+                <a href="http://twitter.com/NikoTheGame" target="_blank" class="twitter-link" onclick="recordOutboundLink('Promo','Niko Twitter Button');"></a>
+        </div>
+        <div class="promo-container" style="display: none; background-image: url(//habbo.hs.llnwd.net/c_images/web_promo/web_promo_04.png)">
+            <div class="promo-content">
+                <div class="title">Lost Monkey Needs You!</div>
+                <div class="body">Download Lost Monkey on your iPhone, iPod or Android phone today for free and get yourself a free pet Monkey in Habbo!</div>
+            </div>
+                <a href="https://market.android.com/details?id=com.sulake.lostmonkey" target="_blank" class="androidmarket-link" onclick="recordOutboundLink('Promo','Lost Monkey Android Market Button');"></a>
+                <a href="http://itunes.apple.com/app/lost-monkey/id467353705" target="_blank" class="appstore-link" onclick="recordOutboundLink('Promo','Lost Monkey AppStore Button');"></a>
+                <a href="http://www.facebook.com/habbo" target="_blank" class="facebook-link" onclick="recordOutboundLink('Promo','Lost Monkey Facebook Button');"></a>
+                <a href="http://www.twitter.com/habbo" target="_blank" class="twitter-link" onclick="recordOutboundLink('Promo','Lost Monkey Twitter Button');"></a>
+        </div>
+
+</div>
+<script type="text/javascript">
+    document.observe("dom:loaded", function() { PromoSlideShow.init(); });
+</script>

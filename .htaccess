@@ -1,0 +1,24 @@
+RewriteEngine on 
+RewriteRule ^(.*)\.html $1\.php 
+
+Options -Indexes
+
+RewriteRule ^me(|/)$ ./index.php?page=community&page_id=1
+RewriteRule ^profile(|/)$ ./index.php?page=community&page_id=2
+
+RewriteRule ^app/oeps(|/)$ ./index.php?page=error_page
+
+RewriteRule ^account/submit(|/)$ ./index.php?page=login
+RewriteRule ^account/password/identityResetForm(|/)$ ./index.php?page=forgot_password&sendmail=true
+RewriteRule ^account/password/resetIdentity/([^/]+)(|/)$ ./index.php?page=forgot_password&securekey=$1
+RewriteRule ^account/password/resetConfirmation(|/)$ ./index.php?page=forgot_password&confirm=true
+RewriteRule ^account/logout(|/)$ ./index.php?logout
+RewriteRule ^account/logout_ok(|/)$ ./index.php?page=logout_user
+
+RewriteCond %{QUERY_STRING} (^|.*&)([^/]+)(&.*|$)
+RewriteRule ^identity/activate(|/) ./index.php?page=identity_activate&%1$2%2
+
+RewriteRule ^quickregister/login_submit(|/)$ ./index.php?page=login
+RewriteRule ^quickregister/([^/]+)(|/)$ ./index.php?page=register&step=$1
+
+RewriteRule ^gamedata/figuredata(|/)$ ./habbofiles.php?type=figuredata
